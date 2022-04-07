@@ -3,10 +3,10 @@
     "recipes": [
         {
             "id": "rec1",
-            "dishImage": "assets/food_pics/food_salmon.jpg",
-            "title": "Smoked Salmon",
-            "duration": "30 mins",
-            "source": "https://pixabay.com/photos/salmon-dish-food-meal-fish-518032/",
+            "dishImage": "assets/recipes_img/zefir.png",
+            "title": "Зефир Тимьян-клубника",
+            "duration": "30 mins/18-24 hours",
+            "source": "https://",
             "information": [
                 "Course: Main Course",
                 "Price: Cheap",
@@ -17,10 +17,10 @@
         },
         {
             "id": "rec2",
-            "dishImage": "assets/food_pics/food_cupcake.jpg",
-            "title": "Chocolate Cup Cake",
-            "duration": "1 hour",
-            "source": "https://pixabay.com/photos/cupcakes-dessert-frosting-food-690040/",
+            "dishImage": "assets/recipes_img/vitaminC.png",
+            "title": "Трайфл Витами С",
+            "duration": "2 hour",
+            "source": "https://",
             "information": [
                 "Course: Dessert",
                 "Price: Somewhat cheap",
@@ -31,10 +31,10 @@
         },
         {
             "id": "rec3",
-            "dishImage": "assets/food_pics/food_pancake.jpg",
-            "title": "Rasberry Maple Pancake",
-            "duration": "30 mins",
-            "source": "https://pixabay.com/photos/pancakes-maple-syrup-sweet-food-2291908/",
+            "dishImage": "assets/recipes_img/soup.png",
+            "title": "Сырный крем-суп",
+            "duration": "20 mins",
+            "source": "https://",
             "information": [
                 "Course: Breakfast",
                 "Price: Cheap",
@@ -45,10 +45,10 @@
         },
         {
             "id": "rec4",
-            "dishImage": "assets/food_pics/food_spaghetti.jpg",
-            "title": "Seafood Spaghetti",
-            "duration": "50 mins",
-            "source": "https://pixabay.com/photos/spaghetti-drunken-line-food-pasta-960978/",
+            "dishImage": "assets/recipes_img/rulet.png",
+            "title": "Рулет из слоеного теста",
+            "duration": "1 hour",
+            "source": "https://",
             "information": [
                 "Course: Main Course",
                 "Price: Expensive",
@@ -59,10 +59,10 @@
         },
         {
             "id": "rec5",
-            "dishImage": "assets/food_pics/food_friedrice.jpg",
-            "title": "Thai Fried Rice",
-            "duration": "35 mins",
-            "source": "https://pixabay.com/photos/fried-rice-thai-food-thai-cuisine-3023040/",
+            "dishImage": "assets/recipes_img/mint.png",
+            "title": "Мятное печенье",
+            "duration": "40 mins",
+            "source": "https://",
             "information": [
                 "Course: Main Course",
                 "Price: Cheap",
@@ -74,10 +74,10 @@
         },
         {
             "id": "rec6",
-            "dishImage": "assets/food_pics/food_curry.jpg",
-            "title": "Thai Green Curry",
-            "duration": "1 hour",
-            "source": "https://pixabay.com/photos/green-curry-thai-food-3604721/",
+            "dishImage": "assets/recipes_img/medalon.png",
+            "title": "Медальоны из говядины в беконе",
+            "duration": "20 mins",
+            "source": "https://",
             "information": [
                 "Course: Main Course",
                 "Price: Medium",
@@ -88,10 +88,10 @@
         },
         {
             "id": "rec7",
-            "dishImage": "assets/food_pics/food_pho.jpg",
-            "title": "Vietnamese Pho",
-            "duration": "1 hour",
-            "source": "https://pixabay.com/photos/soup-pho-soup-vietnam-vietnamese-5250765/",
+            "dishImage": "assets/recipes_img/lavanda.png",
+            "title": "Лавандовое печенье",
+            "duration": "20 mins",
+            "source": "https://",
             "information": [
                 "Course: Main Course",
                 "Price: Cheap",
@@ -102,10 +102,94 @@
         },
         {
             "id": "rec8",
-            "dishImage": "assets/food_pics/food_burger.jpg",
-            "title": "Bacon Cheese Burger",
-            "duration": "30 min",
-            "source": "https://pixabay.com/photos/burger-fast-food-hamburger-731298/",
+            "dishImage": "assets/recipes_img/kulich.png",
+            "title": "Бездрожжевой кулич",
+            "duration": "50 min",
+            "source": "https://",
+            "information": [
+                "Course: Main Course",
+                "Price: Cheap",
+                "Cuisine: American",
+                "Skill Level: Easy",
+                "Prep Time 5 minutes"
+            ]
+        },
+        {
+            "id": "rec9",
+            "dishImage": "assets/recipes_img/indeika.png",
+            "title": "Запеченная индейка",
+            "duration": "55 min",
+            "source": "https://",
+            "information": [
+                "Course: Main Course",
+                "Price: Cheap",
+                "Cuisine: American",
+                "Skill Level: Easy",
+                "Prep Time 5 minutes"
+            ]
+        },
+        {
+            "id": "rec10",
+            "dishImage": "assets/recipes_img/hurma.png",
+            "title": "Салат с хурмой",
+            "duration": "20 min",
+            "source": "https://",
+            "information": [
+                "Course: Main Course",
+                "Price: Cheap",
+                "Cuisine: American",
+                "Skill Level: Easy",
+                "Prep Time 5 minutes"
+            ]
+        },
+        {
+            "id": "rec11",
+            "dishImage": "assets/recipes_img/farsh.png",
+            "title": "Закрытый пирог с фаршем",
+            "duration": "2 hours",
+            "source": "https://",
+            "information": [
+                "Course: Main Course",
+                "Price: Cheap",
+                "Cuisine: American",
+                "Skill Level: Easy",
+                "Prep Time 5 minutes"
+            ]
+        },
+        {
+            "id": "rec12",
+            "dishImage": "assets/recipes_img/caramel.png",
+            "title": "Домашняя карамель",
+            "duration": "35 min",
+            "source": "https://",
+            "information": [
+                "Course: Main Course",
+                "Price: Cheap",
+                "Cuisine: American",
+                "Skill Level: Easy",
+                "Prep Time 5 minutes"
+            ]
+        },
+        {
+            "id": "rec13",
+            "dishImage": "assets/recipes_img/banana.png",
+            "title": "Банановый кекс",
+            "duration": "40 min",
+            "source": "https://",
+            "information": [
+                "Course: Main Course",
+                "Price: Cheap",
+                "Cuisine: American",
+                "Skill Level: Easy",
+                "Prep Time 5 minutes"
+            ]
+        },
+        {
+            "id": "rec14",
+            "dishImage": "assets/recipes_img/brauni.png",
+            "title": "Брауни",
+            "duration": "50 min",
+            "source": "https://",
             "information": [
                 "Course: Main Course",
                 "Price: Cheap",

@@ -12,7 +12,7 @@ class RecipeThumbnail extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: const EdgeInsets.all(8),
+      padding: const EdgeInsets.all(5),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
@@ -21,11 +21,13 @@ class RecipeThumbnail extends StatelessWidget {
               child: Image.asset(
                 '${recipe.dishImage}',
                 fit: BoxFit.cover,
+                height: 605,
+                width: 605,
               ),
               borderRadius: BorderRadius.circular(12),
             ),
           ),
-          const SizedBox(height: 10),
+          const SizedBox(height: 5),
           Text(
             recipe.title,
             maxLines: 1,
