@@ -1,12 +1,15 @@
 import 'package:flutter/material.dart';
 import '../components/components.dart';
 import '../models/models.dart';
+
 class TodayRecipeListView extends StatelessWidget {
   final List<ExploreRecipe> recipes;
+
   const TodayRecipeListView({
     Key? key,
     required this.recipes,
   }) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return Padding(
@@ -20,24 +23,16 @@ class TodayRecipeListView extends StatelessWidget {
         children: [
           const SizedBox(height: 16),
           Container(
-            height:535,
-            // 1
+            height: 535,
             color: Colors.transparent,
-// 2
             child: ListView.separated(
-              // 3
               scrollDirection: Axis.horizontal,
-              // 4
               itemCount: recipes.length,
-              // 5
               itemBuilder: (context, index) {
-                // 6
                 final recipe = recipes[index];
                 return buildCard(recipe);
               },
-              // 7
               separatorBuilder: (context, index) {
-                // 8
                 return const SizedBox(width: 16);
               },
             ),
@@ -46,6 +41,7 @@ class TodayRecipeListView extends StatelessWidget {
       ),
     );
   }
+
   Widget buildCard(ExploreRecipe recipe) {
     if (recipe.cardType == RecipeCardType.card1) {
       return Card1(recipe: recipe);

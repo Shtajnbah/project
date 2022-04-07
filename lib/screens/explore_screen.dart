@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import '../components/components.dart';
 import '../models/models.dart';
 import '../api/mock_fooderlich_service.dart';
+
 class ExploreScreen extends StatelessWidget {
   final mockService = MockFooderlichService();
 
@@ -12,14 +13,10 @@ class ExploreScreen extends StatelessWidget {
     return FutureBuilder(
       future: mockService.getExploreData(),
       builder: (context, AsyncSnapshot<ExploreData> snapshot) {
-        // TODO: Add Nested List Views
         if (snapshot.connectionState == ConnectionState.done) {
           final recipes = snapshot.data?.todayRecipes ?? [];
           return TodayRecipeListView(recipes: recipes);
-
-
         } else {
-          // 6
           return const Center(
             child: LinearProgressIndicator(),
           );

@@ -13,8 +13,8 @@ class _HomeState extends State<Home> {
   int _selectedIndex = 0;
 
   static List<Widget> pages = <Widget>[
-    ExploreScreen(),
     RecipesScreen(),
+    ExploreScreen(),
   ];
 
   void _onItemTapped(int index) {
@@ -27,7 +27,7 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Center(child: Text('Magic of desert',
+        title: Center(child: Text('Magic of food',
           style: Theme.of(context).textTheme.headline1,),),
       ),
       body: pages[_selectedIndex],

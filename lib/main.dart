@@ -13,7 +13,7 @@ class Fooderlich extends StatelessWidget {
     final theme = FooderlichTheme.light();
     return MaterialApp(
       theme: theme,
-      title: 'Magic of desert',
+      title: 'Magic of food',
       home: const Home(),
     );
   }
