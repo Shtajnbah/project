@@ -20,7 +20,6 @@ class AuthorCard extends StatefulWidget {
 }
 
 class _AuthorCardState extends State<AuthorCard> {
-  bool _isFavorited = false;
 
   @override
   Widget build(BuildContext context) {
@@ -33,7 +32,7 @@ class _AuthorCardState extends State<AuthorCard> {
             children: [
               CircleImage(
                 imageProvider: widget.imageProvider,
-                imageRadius: 28,
+                imageRadius: 30,
               ),
               const SizedBox(width: 8),
               Column(
@@ -41,26 +40,18 @@ class _AuthorCardState extends State<AuthorCard> {
                 children: [
                   Text(
                     widget.authorName,
-                    style: FooderlichTheme.lightTextTheme.headline2,
+                    style: FooderlichTheme.lightTextTheme.headline3,
                   ),
                   Text(
                     widget.title,
-                    style: FooderlichTheme.lightTextTheme.headline3,
+                    style: FooderlichTheme.lightTextTheme.headline2,
                   )
                 ],
               ),
             ],
           ),
-          IconButton(
-            icon: Icon(_isFavorited ? Icons.favorite : Icons.favorite_border),
-            iconSize: 30,
-            color: Colors.red[400],
-            onPressed: () {
-              setState(() {
-                _isFavorited = !_isFavorited;
-              });
-            },
-          ),
+          const Icon(Icons.star_outlined, color: Colors.amber, size: 30,)
+
         ],
       ),
     );

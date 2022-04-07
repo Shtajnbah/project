@@ -16,18 +16,19 @@ class FooderlichTheme {
     headline2: GoogleFonts.roboto(
       fontSize: 21.0,
       fontWeight: FontWeight.w700,
-      color: Colors.black,
+      color: Colors.white,
     ),
     headline3: GoogleFonts.roboto(
       fontSize: 16.0,
       fontWeight: FontWeight.w600,
+      color: Colors.white,
+    ),
+    headline6: GoogleFonts.montserrat(
+      fontSize: 32.0,
+      fontWeight: FontWeight.bold,
       color: Colors.black,
     ),
-    headline6: GoogleFonts.roboto(
-      fontSize: 20.0,
-      fontWeight: FontWeight.w600,
-      color: Colors.black,
-    ),
+
   );
 
   static TextTheme darkTextTheme = TextTheme(
